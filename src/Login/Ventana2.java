@@ -79,7 +79,7 @@ public class Ventana2 extends javax.swing.JFrame {
 
     private void jcbOpcionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbOpcionesActionPerformed
             int op = jcbOpciones.getSelectedIndex();
-        
+        //Switch Para Las Opciones A Elegir
         switch (op){
             case 0: JOptionPane.showMessageDialog(null, "No Hay Opción Seleccionada", "Opción Seleccionada" , JOptionPane.INFORMATION_MESSAGE);
                 lblOpcion.setText("No Hay Opción Seleccionada");
